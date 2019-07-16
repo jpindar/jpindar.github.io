@@ -1,45 +1,53 @@
-Jeanne M. Pindar  
-4 Page Lane, Hampton Beach NH  
-603-205-2159  
-jeannepindar@gmail.com  
+Jeanne M. Pindar
+4 Page Lane, Hampton Beach NH
+603-205-2159
+work@jpindar.com
 
 EMPLOYMENT
-SimWave RF & Microwave Design      Mar 2015 - present
+
+TelGaAs Inc.  (as contractor) Jun 2017 - Aug 2018
+microwave equipment manufacturer
+Designed digital circuits; drew schematics and laid out PCBs, wrote firmware
+
+SimWave RF & Microwave Design (now part of TelGaAs Inc.)     Mar 2015 - May 2017
 microwave equipment manufacturer
 Designed and programmed microcontroller boards, drew schematics and laid out PCBs,
 specified and purchased electronic components, circuit boards and subassemblies,
-built prototypes, tested active microwave filter circuits
+built prototypes, tested active microwave filter and switching circuits
 
-Bartley Machine Co. Amesbury MA 	Nov. 2006 - Jan. 2015
-Active filter manufacturer
+Bartley Machine Co. Amesbury MA     Nov. 2006 - Jan. 2015
+Active RF filter manufacturer
 Designed digital circuits including microcontroller boards,
-designed PIC processor based embedded systems and wrote firmware in C,
-drew schematics and laid out PCBs, specified and purchased electronic components, circuit boards and subassemblies,
-tested active microwave filter circuits; wrote ATE and other desktop software to control products and instrumentation via rs-232, IEEE-488 etc.
+designed Microchip PIC processor based embedded systems and wrote firmware in C,
+drew schematics and laid out PCBs, 
+specified and purchased electronic components, circuit boards and subassemblies,
+built prototypes and test fixtures, 
+tested active microwave devices;
+wrote ATE and other desktop software to control products and instrumentation
 
-Marine MD, Merrimack NH         Apr. 2005 - May 2006
-Small boat repair and rebuilding startup
+Marine MD, Merrimack NH    Apr. 2005 - May 2006
+Small boat repair startup
 Installed marine electronics such as radios and antennas; rewired electrical circuits; performed engine repair and maintenance
 
-Micronetics Inc., Hudson NH (now part of Mercury Systems)	 Jun. 1999 - Apr. 2005
+Micronetics Inc., Hudson NH (now part of Mercury Systems)  Jun. 1999 - Apr. 2005
 Manufacturer of microwave signal processing devices
 Designed, programmed, and implemented instrument control systems using PC's, embedded 
 computers, and various GPIB and serial instrumentation;
 tested and calibrated active microwave devices using network analyzers, spectrum analyzers, oscilloscopes, power meters and other instruments;
 wrote firmware (in C and assembler) used in microcontroller based products;
-wrote software (GUI, ATE etc.) in Pascal and Visual Basic, ported software from HP Basic and other obsolete languages,
+wrote desktop software in Pascal and Visual Basic, ported software from HP Basic and other obsolete languages,
 wrote Acceptance Test Procedures;
 
 American Fibertek Inc., Somerset NJ	Feb. 1994 - Jun. 1999
 Manufacturer of fiber optic video and data transmission systems
-Tested, tuned, troubleshot (to component level) and repaired transceiver circuits including fm modulators and demodulators, video amplifiers, and laser diode drivers;
-installed and polished fiber optic connectors
+performed testing, tuning, component level troubleshooting and repair of transceiver circuits including fm modulators and demodulators, video amplifiers, and laser diode drivers;
+installed and polished optical connectors
 
 Vectronics Microwave Corporation, Middlesex NJ (now part of Mercury Systems)  Aug. 1985 - Mar. 1993
 Manufacturer of custom mil-spec microwave signal processing devices
 Designed, programmed, and implemented ATE systems using PC's, Hewlett Packard computers, and various HPIB and analog instruments;
 tested and calibrated active microwave devices using network and spectrum analyzers, oscilloscopes, and other instruments;
-designed, prototyped, tested and repaired (to component level) various digital and analog circuits such as computer interface circuits (IEEE-488, RS-232-C, etc.), amplifiers, and voltage controlled oscillators;
+designed, prototyped, tested and performed component level repair of various digital and analog circuits such as interfaces (IEEE-488, RS-232-C, etc.), amplifiers, and voltage controlled oscillators;
 designed and wrote software for Basic Stamp based devices,
 wrote engineering software in various languages;
 created CAD drawings;
@@ -48,9 +56,8 @@ built phase-matched semirigid coaxial cables
 GMI Electronics Inc., Plainfield NJ	Jan. 1985 - Aug. 1985
 Electronics manufacturer
 Managed a multi-user UNIX-based minicomputer system;
-installed and configured terminals and printers and cabling;
-created database programs using dBase II;
-trained personnel in computer use
+installed and configured terminals, printers, and cabling;
+created database programs using dBase II
 
 Conolog Corporation, Branchburg NJ	Jan. 1984 - Dec. 1984
 Manufacturer of RF modules for military communications
