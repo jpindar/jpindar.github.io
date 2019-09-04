@@ -8,17 +8,6 @@ body {
   font-family: "Futura", sans-serif;
 }
 
-.container {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 100px;
-}
-
-section {
-  display: block;
-  margin: 0 0 0 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
@@ -33,7 +22,7 @@ header {
   width: 70%;
   border: 2px solid #8dd0ff;
   border-radius: 10px;
-  padding: 20px 0;
+  padding: 20px 20px 20px 20px;
   margin: 10px 10px 30px 10px;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
 }
@@ -65,8 +54,8 @@ header h2 {
   font-weight: 300;
 }
 
-#main_content {
-  width: 80%;
+
+.boxes {
   border: 2px solid #8dd0ff;
   border-radius: 10px;
   padding: 10px;
@@ -74,6 +63,15 @@ header h2 {
   background: #ffffff;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
   /*  -webkit-font-smoothing: antialiased;*/
+}
+
+#links {
+  max-width: 600px;
+  width: 80%;
+  position: relative;
+  top: 0px; left: 0px;
+  z-index: 0;
+  margin: 0 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,33 +94,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
 }
 
-dt {
-  font-style: italic;
-  font-weight: bold;
-}
-
-ul li {
-  list-style: none;
-}
-
-ul li:before {
-  content: ">>";
-  font-family: "Lucida Console", Terminal, monospace;
-  font-size: 13px;
-  color: #b5e853;
-  margin-left: -37px;
-  margin-right: 21px;
-  line-height: 16px;
-}
-
 hr {
   height: 0;
   border: 0;
   border-bottom: 1px dashed #b5e853;
   color: #b5e853;
 }
-
-
 
 /* Links
    a, a:hover, a:visited
