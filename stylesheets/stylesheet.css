@@ -39,22 +39,29 @@ header h1 {
   /*-webkit-font-smoothing: antialiased;*/
 }
 
-header h1:before {
-  content: "";
-  font-size: 24px;
-}
-
 header h2 {
   color: #eee;
   font-size: 18px;
   font-weight: 300;
+  margin: 0 0 0 0px;
 }
 
+/*
+img {
+  padding: 0px;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+main {
+  z-index: 1;
+}
+*/
 
 .boxes {
   border: 2px solid #8dd0ff;
   border-radius: 10px;
-  padding: 10px;
+  //padding: 10px;
   color: blue;
   background: #ffffff;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
@@ -62,27 +69,44 @@ header h2 {
 }
 
 #links {
-  max-width: 400px;
-  width: 80%;
+  max-width: 200px;
+  width: 40%;
+  padding: 10px;
+  margin: 0 0 0 100px;
   position: relative;
   top: 0px; left: 0px;
   z-index: 0;
-  margin: 0 100px;
+  background: rgba(255,255, 255, 0.9);
 }
+
+#spectra {
+  height: 450px;
+  width: 600px;
+  border:20px ridge gray;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  top: -320px; left: 50px;
+  z-index: -10;
+  }
 
 #image1 {
   height: 175px;
   width: 250px;
+  padding: 10px;
   position: relative;
-  top: -20px; left: 350px;
-  z-index: -1;
+  top: -250px; left: 650px;
+  z-index: -12;
   }
 
 #bulletpoints {
   height: 200px;
   width: 50%;
-  max-width: 400px;
+  max-width: 350px;
+  position: relative;
+  top: -600px; left: 100px;
+  z-index: 1;
   margin: 10px 10px 10px 200px;
+  background: rgba(255,255, 255, 0.9);
 }
 
 h1, h2, h3, h4, h5, h6 {
