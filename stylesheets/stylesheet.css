@@ -18,12 +18,11 @@ li {
 
 header {
   background: rgba(255,255, 255, 0.3);
-  /* background: #ffffff;*/
   width: 70%;
   border: 2px solid #8dd0ff;
   border-radius: 10px;
-  padding: 20px 20px 20px 20px;
-  margin: 10px 10px 30px 10px;
+  padding: 20px 20px 15px 20px;
+  margin: 10px 10px 25px 10px;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
 }
 
@@ -31,9 +30,7 @@ header h1 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 0px;
-  /*font-weight: bold;*/
   font-family: "Futura", sans-serif;
-  /*color: #8dd0ff;*/
   color: #eee;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -48,7 +45,6 @@ header h1:before {
 }
 
 header h2 {
-  /* color: #63c0f5; */
   color: #eee;
   font-size: 18px;
   font-weight: 300;
@@ -66,12 +62,19 @@ header h2 {
 }
 
 #links {
-  max-width: 600px;
+  max-width: 400px;
   width: 80%;
   position: relative;
   top: 0px; left: 0px;
   z-index: 0;
   margin: 0 100px;
+}
+
+#bulletpoints {
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+  margin: 10px 10px 10px 200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,18 +83,6 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
-}
-
-#main_content h1 {
-  font-size: 30px;
-}
-
-#main_content h2 {
-  font-size: 24px;
-}
-
-#main_content h3 {
-  font-size: 18px;
 }
 
 hr {
@@ -105,7 +96,7 @@ hr {
    a, a:hover, a:visited
 */
 
-a {
-  color: #63c0f5;
+a, a:hover, a:visited {
+  color: blue;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
