@@ -70,6 +70,14 @@ header h2 {
   margin: 0 100px;
 }
 
+#image1 {
+  height: 175px;
+  width: 250px;
+  position: relative;
+  top: -20px; left: 350px;
+  z-index: -1;
+  }
+
 #bulletpoints {
   height: 200px;
   width: 50%;
