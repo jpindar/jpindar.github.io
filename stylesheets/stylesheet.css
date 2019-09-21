@@ -18,7 +18,6 @@ li {
 
 header {
   background: rgba(255,255, 255, 0.3);
-  /* background: #ffffff;*/
   width: 70%;
   border: 2px solid #8dd0ff;
   border-radius: 10px;
@@ -31,9 +30,7 @@ header h1 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 0px;
-  /*font-weight: bold;*/
   font-family: "Futura", sans-serif;
-  /*color: #8dd0ff;*/
   color: #eee;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -42,16 +39,11 @@ header h1 {
   /*-webkit-font-smoothing: antialiased;*/
 }
 
-header h1:before {
-  content: "";
-  font-size: 24px;
-}
-
 header h2 {
-  /* color: #63c0f5; */
   color: #eee;
   font-size: 18px;
   font-weight: 300;
+  margin: 0 0 0 0px;
 }
 
 
