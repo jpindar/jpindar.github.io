@@ -19,7 +19,7 @@ li {
 header {
   background: rgba(255,255, 255, 0.3);
   width: 60%;
-  border: 2px solid #8dd0ff;
+  border: 3px solid #8dd0ff;
   border-radius: 10px;
   padding: 20px 20px 15px 20px;
   margin: 10px 10px 25px 10px;
@@ -48,9 +48,8 @@ header h2 {
 
 
 .boxes {
-  border: 2px solid #8dd0ff;
+  border: 3px solid #8dd0ff;
   border-radius: 10px;
-  padding: 10px;
   color: blue;
   background: #ffffff;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
@@ -60,7 +59,7 @@ header h2 {
 #links {
   max-width: 200px;
   width: 40%;
-  padding: 10px;
+  padding: 20px;
   position: relative;
   top: 0px; left: 0px;
   z-index: 0;
@@ -74,7 +73,7 @@ header h2 {
   width: 50%;
   max-width: 350px;
   position: relative;
-  top: -100px; left: 0px;
+  top: -70px; left: 0px;
   z-index: 1;
   margin: 10px 10px 10px 200px;
   background: rgba(255,255, 255, 0.9);
