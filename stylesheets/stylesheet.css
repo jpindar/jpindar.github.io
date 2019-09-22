@@ -98,6 +98,14 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: #blue;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+a:hover {
+  color: red;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+a:visited {
+  color: purple;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
