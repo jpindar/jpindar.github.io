@@ -19,11 +19,11 @@ li {
 header {
   background: rgba(255,255, 255, 0.3);
   width: 60%;
-  border: 3px solid #8dd0ff;
+  border: 4px outset #8dd0ff;
   border-radius: 10px;
   padding: 20px 20px 15px 20px;
   margin: 10px 10px 25px 10px;
-  box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .9);
 }
 
 header h1 {
@@ -48,7 +48,7 @@ header h2 {
 
 
 .boxes {
-  border: 3px solid #8dd0ff;
+  border: 4px outset #8dd0ff;
   border-radius: 10px;
   color: blue;
   background: #ffffff;
@@ -63,7 +63,7 @@ header h2 {
   position: relative;
   top: 0px; left: 0px;
   z-index: 0;
-  background: rgba(255,255, 255, 0.9);
+  background: rgba(255,255, 255, 0.5);
   margin: 0 100px;
 }
 
@@ -76,7 +76,7 @@ header h2 {
   top: -70px; left: 0px;
   z-index: 1;
   margin: 10px 10px 10px 200px;
-  background: rgba(255,255, 255, 0.9);
+  background: rgba(255,255, 255, 0.7);
 }
 
 h1, h2, h3, h4, h5, h6 {
