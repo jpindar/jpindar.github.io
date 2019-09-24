@@ -19,7 +19,7 @@ li {
 header {
   background: rgba(255,255, 255, 0.3);
   width: 60%;
-  border: 2px solid #8dd0ff;
+  border: 4px outset #8dd0ff;
   border-radius: 10px;
   padding: 20px 20px 15px 20px;
   margin: 10px 10px 25px 10px;
@@ -59,9 +59,8 @@ main {
 */
 
 .boxes {
-  border: 2px solid #8dd0ff;
+  border: 4px outset #8dd0ff;
   border-radius: 10px;
-  //padding: 10px;
   color: blue;
   background: #ffffff;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
@@ -71,12 +70,12 @@ main {
 #links {
   max-width: 200px;
   width: 40%;
-  padding: 10px;
+  padding: 20px;
   margin: 0 0 0 100px;
   position: relative;
   top: 0px; left: 0px;
   z-index: 0;
-  background: rgba(255,255, 255, 0.9);
+  background: rgba(255,255, 255, 0.5);
 }
 
 #spectra {
@@ -103,10 +102,10 @@ main {
   width: 50%;
   max-width: 350px;
   position: relative;
-  top: -400px; left: 0px;
+  top: -100px; left: 0px;
   z-index: 1;
   margin: 10px 10px 10px 200px;
-  background: rgba(255,255, 255, 0.9);
+  background: rgba(255,255, 255, 0.5);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,7 +127,15 @@ hr {
    a, a:hover, a:visited
 */
 
-a, a:hover, a:visited {
-  color: blue;
+a {
+  color: #blue;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+a:hover {
+  color: red;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+a:visited {
+  color: purple;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
