@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -5,19 +6,15 @@ body {
   color: blue;
   font: 16px;
   line-height: 1.5;
-  font-family: "Futura", sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: "Lucida Console", Terminal, monospace;
+  font-family: Verdana, sans-serif;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
-}
-
-li {
-  line-height: 1.4 ;
 }
 
 header {
@@ -46,7 +43,6 @@ header h1 {
 header h2 {
   color: #eee;
   font-size: 18px;
-  font-weight: 300;
   margin: 0 0 0 0px;
 }
 
@@ -68,6 +64,10 @@ header h2 {
   top: 0px; left: 0px;
   z-index: 0;
   background: rgba(255,255, 255, 0.6);
+}
+
+ul {
+  list-style-type:square;
 }
 
 #bulletpoints {
