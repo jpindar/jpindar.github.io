@@ -1,19 +1,20 @@
+
 body {
   margin: 0;
   padding: 0;
-  background: #ffffff url("../images/graph-bg.jpg") 0 0;*/
+  background: #ffffff url("../images/graph-bg.jpg") 0 0;
   color: blue;
   font: 16px;
   line-height: 1.5;
-  font-family: "Futura", sans-serif;
+  font-family: Verdana, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
-}
-
-li {
-  line-height: 1.4 ;
+  font-weight: normal;
+  font-family: Verdana, sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 header {
@@ -23,40 +24,28 @@ header {
   border-radius: 10px;
   padding: 20px 20px 15px 20px;
   margin: 10px 10px 25px 10px;
-  box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .8);
 }
 
 header h1 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 0px;
-  font-family: "Futura", sans-serif;
+  font-family: 'Turret Road', sans-serif;
+  font-weight: bold;
   color: #eee;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: 1px;
-  /*-webkit-font-smoothing: antialiased;*/
 }
 
 header h2 {
   color: #eee;
   font-size: 18px;
-  font-weight: 300;
   margin: 0 0 0 0px;
 }
 
-/*
-img {
-  padding: 0px;
-  margin: 0px;
-  border-radius: 10px;
-}
-
-main {
-  z-index: 1;
-}
-*/
 
 .boxes {
   border: 4px outset #8dd0ff;
@@ -64,30 +53,38 @@ main {
   color: blue;
   background: #ffffff;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .7);
-  /*  -webkit-font-smoothing: antialiased;*/
 }
 
 #links {
-  max-width: 200px;
+  max-width: 150px;
   width: 40%;
   padding: 20px;
   margin: 0 0 0 100px;
-  position: relative;
-  top: 0px; left: 0px;
   z-index: 0;
-  background: rgba(255,255, 255, 0.5);
+  background: rgba(255,255, 255, 0.6);
+}
+
+ul {
+  list-style-type:square;
 }
 
 #bulletpoints {
-  height: 200px;
   width: 50%;
   max-width: 350px;
-  position: relative;
-  top: 0px; left: 0px;
-  z-index: 1;
+  padding-top: 10px;
   margin: 10px 10px 10px 200px;
-  background: rgba(255,255, 255, 0.5);
+  position: relative;
+  top: -30px; left: 0px;
+  z-index: -1;
+  background: rgba(255,255, 255, 0.6);
 }
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 
 #spectra {
   height: 300px;
@@ -99,26 +96,25 @@ main {
   z-index: -8;
   }
 
-#image1 {
-  height: 175px;
+#imagediv1 {
   width: 250px;
   padding: 10px;
   position: relative;
-  top: -50px; left: 0px;
+  top: -50px; left: 10px;
   z-index: -10;
+  transform: rotate(3deg);
   }
-
-#image2 {
-  height: 188px;
+  
+#imagediv2 {
   width: 250px;
   padding: 10px;
   position: relative;
   top: -600px; left: 400px;
   z-index: -9;
+  transform: rotate(-5deg);
   }  
   
-  #image3 {
-  height: 188px;
+  #imagediv3 {
   width: 250px;
   padding: 10px;
   position: relative;
@@ -126,14 +122,15 @@ main {
   z-index: -8;
   } 
 
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  font-family: "Lucida Console", Terminal, monospace;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
-}
+  #tuxdiv {
+  max-width: 100px;
+  height: auto;
+  border: none;
+  position: relative;
+  top: -812px; left: 540px;
+  z-index: -8;
+  } 
+  
 
 hr {
   height: 0;
