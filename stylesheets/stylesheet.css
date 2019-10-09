@@ -9,7 +9,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
   font-weight: normal;
   font-family: "Lucida Console", Terminal, monospace;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -60,25 +59,25 @@ header h2 {
 }
 
 #links {
-  max-width: 200px;
+  max-width: 150px;
   width: 40%;
   padding: 20px;
+  margin: 0 100px;
   position: relative;
   top: 0px; left: 0px;
   z-index: 0;
-  background: rgba(255,255, 255, 0.5);
-  margin: 0 100px;
+  background: rgba(255,255, 255, 0.6);
 }
 
 #bulletpoints {
-  height: 200px;
   width: 50%;
   max-width: 350px;
-  position: relative;
-  top: -70px; left: 0px;
-  z-index: 1;
+  padding-top: 10px;
   margin: 10px 10px 10px 200px;
-  background: rgba(255,255, 255, 0.7);
+  position: relative;
+  top: -30px; left: 0px;
+  z-index: -1;
+  background: rgba(255,255, 255, 0.6);
 }
 
 
