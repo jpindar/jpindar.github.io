@@ -122,6 +122,15 @@ img {
   top: -500px; left: 400px;
   z-index: -8;
   } 
+ 
+  #pi {
+  max-width: 250px;
+  height: auto;
+  border: none;
+  position: relative;
+  top: -600px; left: 270px;
+  z-index: -82;
+  } 
 
   #tux {
   max-width: 100px;
