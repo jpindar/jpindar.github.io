@@ -5,7 +5,6 @@ body {
   background: #ffffff url("../images/graph-bg.jpg") 0 0;
   color: blue;
   font: 16px;
-  line-height: 1.5;
   font-family: Verdana, sans-serif;
 }
 
@@ -22,7 +21,7 @@ header {
   width: 60%;
   border: 4px outset #8dd0ff;
   border-radius: 10px;
-  padding: 20px 20px 15px 20px;
+  padding: 5px 0px 15px 20px;
   margin: 10px 10px 25px 10px;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 100, .8);
 }
@@ -41,11 +40,10 @@ header h1 {
 }
 
 header h2 {
-  color: #eee;
+  color: blue;
   font-size: 18px;
   margin: 0 0 0 0px;
 }
-
 
 .boxes {
   border: 4px outset #8dd0ff;
@@ -56,12 +54,11 @@ header h2 {
 }
 
 #links {
-  max-width: 150px;
+  max-width: 200px;
   width: 40%;
-  padding: 20px;
-  margin: 0 100px;
-  position: relative;
-  top: 0px; left: 0px;
+  line-height: 1.5;
+  padding: 10px 0px 10px 20px;
+  margin: 0px 0px 0px 80px;
   z-index: 0;
   background: rgba(255,255, 255, 0.6);
 }
@@ -73,6 +70,7 @@ ul {
 #bulletpoints {
   width: 50%;
   max-width: 350px;
+  line-height: 1.5;
   padding-top: 10px;
   margin: 10px 10px 10px 200px;
   position: relative;
@@ -94,7 +92,7 @@ hr {
 */
 
 a {
-  color: #blue;
+  color: blue;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 a:hover {
