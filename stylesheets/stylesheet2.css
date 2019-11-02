@@ -129,7 +129,10 @@ img {
     z-index: -8;
   } 
 
-
+#icd{
+  width: 250px;
+  height: 250px;
+}
 
 #fel {
   width: 250px;
