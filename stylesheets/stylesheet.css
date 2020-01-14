@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   background-image:
   linear-gradient(
-    to right, 
+    to right,
     rgba(255,255, 255, 0.4), rgba(255,255, 255, 0.0)
   );
   width: 60%;
@@ -59,7 +59,7 @@ header h2 {
 
 #links {
   max-width: 400px;
-  width: 40%;
+  width: 60%;
   line-height: 1.5;
   padding: 10px 0px 10px 20px;
   margin: 0px 0px 0px 80px;
@@ -72,8 +72,8 @@ ul {
 }
 
 #bulletpoints {
-  width: 50%;
-  max-width: 350px;
+  width: 60%;
+  max-width: 400px;
   line-height: 1.5;
   padding-top: 10px;
   margin: 10px 10px 10px 200px;
