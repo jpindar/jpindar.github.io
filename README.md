@@ -1,2 +1,2 @@
 # jpindar.github.io
-My GitHub page
+My GitHub page visible at jpindar.github.io
