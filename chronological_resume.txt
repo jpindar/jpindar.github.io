@@ -5,9 +5,10 @@ work@jpindar.com
 
 EMPLOYMENT
 
-TelGaAs Inc.  (as contractor) Jun 2017 - Aug 2018
+TelGaAs Inc. (contract) Jun 2017 - Nov 2019
 microwave equipment manufacturer
 Designed digital circuits; drew schematics and laid out PCBs, wrote firmware
+This was a fully remote position
 
 SimWave RF & Microwave Design (now part of TelGaAs Inc.)     Mar 2015 - May 2017
 microwave equipment manufacturer
