@@ -1,0 +1,11 @@
+
+body{
+font-family:sans-serif;
+font-size:large;
+color:dodgerblue;
+background:lightblue;
+}
+
+.active {
+  color:orange;  /* doesn't work if initializePage() sets it's style.color? initialize is only called once*/
+}
