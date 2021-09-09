@@ -1,11 +1,34 @@
 
 body{
-font-family:sans-serif;
-font-size:large;
-color:dodgerblue;
-background:lightblue;
+background:black;
 }
 
-.active {
-  color:orange;  /* doesn't work if initializePage() sets it's style.color? initialize is only called once*/
+.green-crt-glow{
+  font-family: "Courier New";
+  font-size: 30px;
+
+  color: #f0fff8; /* almost white */
+  text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66,
+ 0 0 20px   #00ff66, 0 0 30px #00ff66;
+  /* text-shadow: x-offset, y-offset, blur radius, color */
+}
+
+.amber-crt-glow{
+  font-family: "Courier New";
+  font-size: 30px;
+
+  color: #f8a552;
+  text-shadow: 0 0 3px #f8c44a, 0 0 10px #ffb300,
+ 0 0 20px  #ffb300, 0 0 30px #ffb300;
+  /* text-shadow: x-offset, y-offset, blur radius, color */
+}
+
+.blue-crt-glow{
+  font-family: "Courier New";
+  font-size: 30px;
+
+  color: #b6ecfa;
+  text-shadow: 0 0 3px #99e8fb, 0 0 10px #5184fb,
+ 0 0 20px  #a3f6fd, 0 0 30px #d8f9fb;
+  /* text-shadow: x-offset, y-offset, blur radius, color */
 }
