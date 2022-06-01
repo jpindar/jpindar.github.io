@@ -1,5 +1,5 @@
 Jeanne M. Pindar
-4 Page Lane, Hampton Beach NH
+Hampton Beach NH
 603-205-2159
 work@jpindar.com
 
@@ -20,9 +20,9 @@ Bartley Machine Co. Amesbury MA     Nov. 2006 - Jan. 2015
 Active RF filter manufacturer
 Designed digital circuits including microcontroller boards,
 designed Microchip PIC processor based embedded systems and wrote firmware in C,
-drew schematics and laid out PCBs, 
+drew schematics and laid out PCBs,
 specified and purchased electronic components, circuit boards and subassemblies,
-built prototypes and test fixtures, 
+built prototypes and test fixtures,
 tested active microwave devices;
 wrote ATE and other desktop software to control products and instrumentation
 
@@ -32,7 +32,7 @@ Installed marine electronics such as radios and antennas; rewired electrical cir
 
 Micronetics Inc., Hudson NH (now part of Mercury Systems)  Jun. 1999 - Apr. 2005
 Manufacturer of microwave signal processing devices
-Designed, programmed, and implemented instrument control systems using PC's, embedded 
+Designed, programmed, and implemented instrument control systems using PC's, embedded
 computers, and various GPIB and serial instrumentation;
 tested and calibrated active microwave devices using network analyzers, spectrum analyzers, oscilloscopes, power meters and other instruments;
 wrote firmware (in C and assembler) used in microcontroller based products;
